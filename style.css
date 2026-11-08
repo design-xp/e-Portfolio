@@ -1,0 +1,307 @@
+
+/*
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #2C2E33;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #D985555;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: none;
+	font-weight: 300;
+	color: #2C2E33;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #5BA689;
+}
+
+a:hover {
+}
+
+#wrapper {
+	overflow: hidden;
+	background: #F5F2ED;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+/* Header */
+
+#header-wrapper {
+	overflow: hidden;
+	height: 320px;
+}
+
+#header {
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+/* Logo */
+
+#logo {
+	overflow: hidden;
+	height: 180px;
+}
+
+#logo h1, #logo p {
+	text-align: center;
+}
+
+#logo h1 {
+	padding: 20px 0px 0px 0px;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	color: #2C2E33;
+	font-size: 72px;
+	font-weight: 500;
+}
+
+#logo h2 {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: 450;
+	text-transform: none;
+	color: #3E6765;
+	text-align: center;
+}
+
+#logo p {
+	margin-top: 0px;
+	padding: 0px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #696969;
+}
+
+#logo p a {
+	color: #696969;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #3C342E;
+}
+
+
+/* Menu */
+
+#menu-wrapper {
+	overflow: hidden;
+	height: 52px;
+	margin-bottom: 2em;
+	background: #2C2E33;
+}
+
+#menu {
+	overflow: hidden;
+	height: 52px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 30px;
+	line-height: 52px;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 450;
+	transition: all .2s ease;
+	color: #FFFFFF;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	transform: translateY(-2px);
+	background: #D98555;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+}
+
+/* Page */
+
+#page {
+	overflow: hidden;
+	padding: 0px 20px 40px 20px;
+}
+
+.entry p {
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#page p {
+	text-algin: center;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 752px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+/* Footer */
+
+#footer {
+	height: 60px;
+	margin: 0 auto;
+	padding: 10px 0px 0px 0px;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 10px;
+	line-height: normal;
+	text-align: center;
+	text-shadow: none;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	color: #D98555;
+}
+
+.box1 {
+	overflow: hidden;
+	height: 300px;
+	background: url(images/img04.jpg) no-repeat center bottom;
+}
+
+
+/* Three Column Content */
+
+#three-column {
+	overflow: hidden;
+	padding: 30px 0px 50px 0px;
+}
+
+#three-column .tbox1 {
+	float: left;
+	width: 384px;
+	margin-right: 20px;
+}
+
+#three-column .tbox2 {
+	float: left;
+	width: 384px;
+}
+
+#three-column .tbox3 {
+	float: right;
+	width: 384px;
+}
+
+.box-style {
+	background: #FFFFFF;
+	text-align: center;
+	box-shadow: 0 2px 12px rgba(0,0,0,.08);
+	transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.box-style h3 {
+	padding: 10px 0px 10px 0px;
+	letter-spacing: -.5px;
+	font-size: 22px;
+	font-weight: 400;
+	margin-bottom: 15px;
+	color: #2C2E33;
+}
+
+.box-style p {
+	color: #696969;
+	font-size: 15px;
+	line-height: 1.8;
+}
+
+.box-style .content {
+	overflow: hidden;
+	width: 324px;
+	padding: 30px;
+}
+
+.box-style:hover{
+	transform: translateY(-4px);
+	box-shadow: 0 10px 24px rgba(0,0,0,.12);
+}
+
+.button
+{
+	display: inline-block;
+	margin: 1em 0em;
+	background: #3E6765;
+	padding: 1em 2em;
+	color: #FFFFFF;
+}
+
+.button:hover
+{
+	background: #D98555;
+	color: #FFFFFF;
+}
